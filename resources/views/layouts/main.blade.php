@@ -31,22 +31,6 @@
     @yield('content')
     <!-- End home content -->
 
-    <!-- portfolio content -->
-    @yield('portfolio')
-    <!-- End portfolio content -->
-
-    <!-- contact content -->
-    @yield('contact')
-    <!-- End contact content -->
-
-    <!-- blog content -->
-    @yield('blog')
-    <!-- End blog content -->
-
-    <!-- err content -->
-    @yield('errContent')
-    <!-- end err content -->
-
     <!-- Footer Area -->
     @include('includes.footer')
     <!--/ End Footer Area -->

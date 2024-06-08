@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
-@section('errContent')
+@section('content')
     @include('includes.error')
 @endsection

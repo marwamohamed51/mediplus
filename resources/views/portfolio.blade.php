@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('portfolio')
+@section('content')
     @include('includes.portfolioHead')
     @include('includes.portfolioDetails')
 @endsection

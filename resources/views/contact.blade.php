@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('contact')
+@section('content')
     @include('includes.contactHead')
     @include('includes.contactDetail')
 @endsection
