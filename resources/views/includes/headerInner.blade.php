@@ -17,19 +17,19 @@
                     <div class="main-menu">
                         <nav class="navigation">
                             <ul class="nav menu">
-                                <li class="{{ Request::is('home') ? 'active' : '' }}"><a href="#">Home <i
+                                <li class="{{ Request::is('home') ? 'active' : '' }}"><a href="#">{{ __('messages.home') }}<i
                                             class="icofont-rounded-down"></i></a>
                                     <ul class="dropdown">
                                         <li><a href="{{ route('home') }}">Home Page 1</a></li>
                                     </ul>
                                 </li>
                                 <li class="{{ Request::is('portfolio') ? 'active' : '' }}">
-                                    <a href="{{ route('portfolio') }}">Doctos</a>
+                                    <a href="{{ route('portfolio') }}">{{ __('messages.doctors') }}</a>
                                 </li>
                                 <li class="{{ Request::is('services') ? 'active' : '' }}">
-                                    <a href="{{ route('services') }}">Services </a>
+                                    <a href="{{ route('services') }}">{{ __('messages.services') }}</a>
                                 </li>
-                                <li class="{{ Request::is('error404') ? 'active' : '' }}"><a href="#">Pages <i
+                                <li class="{{ Request::is('error404') ? 'active' : '' }}"><a href="#">{{ __('messages.pages') }}<i
                                             class="icofont-rounded-down"></i></a>
                                     <ul class="dropdown">
                                         <li>
@@ -38,7 +38,7 @@
                                     </ul>
                                 </li>
                                 <li class="{{ Request::is('blog') ? 'active' : '' }}">
-                                    <a href="#">Blogs <i class="icofont-rounded-down"></i></a>
+                                    <a href="#">{{ __('messages.blog') }} <i class="icofont-rounded-down"></i></a>
                                     <ul class="dropdown">
                                         <li>
                                             <a  href="{{ route('blog') }}">Blog Details</a>
@@ -46,7 +46,7 @@
                                     </ul>
                                 </li>
                                 <li class="{{ Request::is('contact') ? 'active' : '' }}">
-                                    <a href="{{ route('contact') }}">Contact Us</a>
+                                    <a href="{{ route('contact') }}">{{ __('messages.contactus') }}</a>
                                 </li>
                             </ul>
                         </nav>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="col-lg-2 col-12">
                     <div class="get-quote">
-                        <a href="appointment.html" class="btn">Book Appointment</a>
+                        <a href="appointment.html" class="btn">{{ __('messages.book_appointment') }}</a>
                     </div>
                 </div>
             </div>
